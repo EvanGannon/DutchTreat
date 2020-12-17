@@ -1,0 +1,23 @@
+﻿body {
+    font-family: 'Segoe UI'
+}
+input[type=submit] {
+    width: auto;
+}
+input, textarea {
+    font-size: 10px;
+    width: 200px;
+}
+
+
+label {
+    font-size: 16px;
+}
+div#theForm {
+    background: #686464;
+}
+
+    #theForm input[type=submit]{
+        background-color:green;
+        color: white;
+    }
