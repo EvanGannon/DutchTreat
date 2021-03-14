@@ -9,9 +9,9 @@
         <h1>Welcome to Dutch Treat</h1>
         <menu>
             <ul>
-                <li> <a href="/">Home</a></li>
-                <li> <a href="/app/contact">Contact</a></li>
-                <li> <a href="/app/about">About</a></li>
+                <li> <a asp-controller = "app" asp-action="Index">Home</a></li>
+                <li> <a asp-controller = "app" asp-action="Contact">Contact</a></li>
+                <li> <a asp-controller = "app" asp-action="About">About</a></li>
             </ul>
         </menu>
     </header>
@@ -24,5 +24,6 @@
     
     <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="~/js/index.js"></script>
+    @RenderSection("scripts", false)
 </body>
 </html>
