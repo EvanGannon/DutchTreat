@@ -1,4 +1,5 @@
-﻿body {
+﻿
+/*body {
     font-family: 'Segoe UI'
 }
 input[type=submit] {
@@ -63,4 +64,4 @@ menu li {
     }
     menu li:last-of-type::after{
         content: "";
-    }
+    }*/
